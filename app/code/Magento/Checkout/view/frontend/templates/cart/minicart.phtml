@@ -41,7 +41,7 @@
             </div>
             <?= $block->getChildHtml('minicart.addons') ?>
         </div>
-    <?php endif ?>
+    <?php endif; ?>
     <script>
         window.checkout = <?= /* @escapeNotVerified */ $block->getSerializedConfig() ?>;
     </script>
